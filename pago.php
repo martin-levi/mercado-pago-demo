@@ -53,7 +53,8 @@
     $preferenceResponse= $preference->save();
 
     
-       
+     
+    print("<script src='https://www.mercadopago.com/v2/security.js' view='item'></script>")  ;
 
    print("<script>  location.href='".$preferenceResponse->init_point."'</script>")  
    
